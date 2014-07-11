@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.author              = { "Ethan Nagel" => "eanagel@gmail.com" }
   s.platform            = :ios, '6.0'
-  s.source              = { :git => "https://github.com/NagelTech/NTJsonStore.git", :tag => "0.20" }
+  s.source              = { :git => "https://github.com/NagelTech/NTJsonStore.git", :branch => "develop" }
   s.requires_arc        = true
   s.libraries           = 'sqlite3'
 
